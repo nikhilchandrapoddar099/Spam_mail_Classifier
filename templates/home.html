@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title></title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.2/css/bootstrap.min.css" integrity="sha384-y3tfxAZXuh4HwSYylfB+J125MxIs6mR5FOHamPBG064zB+AFeWH94NdvaCBm8qnd" crossorigin="anonymous">
+<style>
+
+  body {
+ background-image: url("https://www.moneycrashers.com/wp-content/uploads/2017/07/ways-stop-spam-email-message-robocalls-1068x713.jpg");
+
+}
+#first{
+  background-color:#F1A2A2;
+  //background-image: url("https://www.moneycrashers.com/wp-content/uploads/2017/07/ways-stop-spam-email-message-robocalls-1068x713.jpg");
+border:2px solid black;
+}
+.try{
+  background-color:green;
+  color:white;
+  width:100px;
+}
+</style>
+  </head>
+  <body>
+    <BR><BR><BR><BR>
+<div class="container">
+  <BR>
+    <div id="first"class="jumbotron">
+<p style="font-size:40px;text-align:center;">SPAM MAIL DETECTOR</p>
+<center>
+<form action="{{ url_for('fun1')}}"  method = "POST">
+  TO:<br>
+  <input type="text" name="p1">
+  <br>
+From:<br>
+  <input type="text" name="p2">
+  <br>
+  Text:<br><input style="height:100px" type="text" name="p3">
+    <br>  <br>
+  <input class="try" type="submit" value="Submit">
+</form>
+</center>
+</div>
+</div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.2/js/bootstrap.min.js" integrity="sha384-vZ2WRJMwsjRMW/8U7i6PWi6AlO1L79snBrmgiDpgIWJ82z8eA5lenwvxbMV1PAh7" crossorigin="anonymous"></script>
+  </body>
+</html>
